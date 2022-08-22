@@ -1,8 +1,8 @@
-
+import { MainHome } from "../components/MainHome"
 export function Home(){
     return(
      <div>
-        hello world
+       <MainHome/>
     </div>
     )
 }
