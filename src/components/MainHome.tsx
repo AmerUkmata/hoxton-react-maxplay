@@ -7,9 +7,8 @@ export function MainHome() {
             <h3>
                 Join us and have fun with music,<br />
                 Here you can ADD your music,<br />
-                if you like music we will gie you a taste
+                if you like music we will give you a taste
             </h3>
-            <button>Join us</button>
         </div>
     )
 }
