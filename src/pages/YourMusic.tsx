@@ -1,7 +1,8 @@
+import { AddMusic } from "../components/AddMusic"
 export function YourMusic(){
     return(
         <div>
-            hello
+            <AddMusic/>
         </div>
     )
 }
