@@ -1,5 +1,9 @@
+import { MainMusic } from "../components/MainMusic"
+
 export function FreeMusic(){
     return(
-        <div>hello</div>
+        <div>
+            <MainMusic/>
+        </div>
     )
 }

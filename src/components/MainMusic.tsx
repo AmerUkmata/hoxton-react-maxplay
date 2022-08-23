@@ -11,35 +11,46 @@ function playMusic() {
 }
 
 export function MainMusic() {
-    const [songs, setsongs] = useState([
-        
-             
-                {
-                    "title": "hello",
-                    "url": "https://youtu.be/SAFHQobvqXI"
-                },
-                {
-                    "title": "gold",
-                    "url": "https://youtu.be/SAFHQobvqXI"
-                },
-                {
-                    "title": "nice beat",
-                    "url": "https://youtu.be/SAFHQobvqXI"
-                }
+    const [songs, setSongs] = useState([
+      {
+        title: 'Goldn',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/08/04/audio_2dde668d05.mp3?filename=goldn-116392.mp3'
+      },
+      {
+        title: 'Inspiring Cinematic Ambient',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/08/02/audio_884fe92c21.mp3?filename=inspiring-cinematic-ambient-116199.mp3'
+      },
+      {
+        title: 'Lofi Study',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3?filename=lofi-study-112191.mp3'
+      },
+      {
+        title: 'Stomping Rock (Four Shots)',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/05/17/audio_407815a564.mp3?filename=stomping-rock-four-shots-111444.mp3'
+      }
     ])
+
+    
 
     return (
         <div>
             {songs.map(song => (
                 <button
                     onClick={() => {
-                        music.src = song.url
+                        music.src = song.source
                         playMusic()
                     }}
                 >
                     {song.title}
                 </button>
+                
             ))}
+            
+            <button onClick={playMusic}>PLAY/PAUSE MUSIC</button>
         </div>
     )
 }
