@@ -1,14 +1,15 @@
-import { useState } from 'react'
+import {Link} from 'react-router-dom';
 import { Home } from './pages/Home'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  const myLink = document.getElementById('myLink');
+  if (myLink) myLink.click();
+  
   return (
     <div className="App">
       <Home/>
-      <button>Back</button>
+      <Link to="/Home">Home</Link>
       <button>Next</button>
     </div>
   )
