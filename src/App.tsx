@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
        <Home/>
-      {/* <Link to="/Home">Home</Link>  */}
+       {/* <Link to="/Home">Home</Link> */}
       <FreeMusic/>
       <button>Next</button>
     </div>
