@@ -31,6 +31,36 @@ export function MainMusic() {
         title: 'Stomping Rock (Four Shots)',
         source:
           'https://cdn.pixabay.com/download/audio/2022/05/17/audio_407815a564.mp3?filename=stomping-rock-four-shots-111444.mp3'
+      },
+      {
+        title: 'Stomping Rock (Four Shots)',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/05/17/audio_407815a564.mp3?filename=stomping-rock-four-shots-111444.mp3'
+      },
+      {
+        title: 'Stomping Rock (Four Shots)',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/05/17/audio_407815a564.mp3?filename=stomping-rock-four-shots-111444.mp3'
+      },
+      {
+        title: 'Stomping Rock (Four Shots)',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/05/17/audio_407815a564.mp3?filename=stomping-rock-four-shots-111444.mp3'
+      },
+      {
+        title: 'Stomping Rock (Four Shots)',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/05/17/audio_407815a564.mp3?filename=stomping-rock-four-shots-111444.mp3'
+      },
+      {
+        title: 'Stomping Rock (Four Shots)',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/05/17/audio_407815a564.mp3?filename=stomping-rock-four-shots-111444.mp3'
+      },
+      {
+        title: 'Stomping Rock (Four Shots)',
+        source:
+          'https://cdn.pixabay.com/download/audio/2022/05/17/audio_407815a564.mp3?filename=stomping-rock-four-shots-111444.mp3'
       }
     ])
 

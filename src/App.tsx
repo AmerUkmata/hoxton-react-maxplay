@@ -1,5 +1,5 @@
 // import {Link} from 'react-router-dom';
-// import { Home } from './pages/Home'
+import { Home } from './pages/Home'
 import { FreeMusic } from './pages/FreeMusic'
 
 
@@ -9,8 +9,8 @@ function App() {
   
   return (
     <div className="App">
-      {/* <Home/>
-      <Link to="/Home">Home</Link> */}
+       <Home/>
+      {/* <Link to="/Home">Home</Link>  */}
       <FreeMusic/>
       <button>Next</button>
     </div>
