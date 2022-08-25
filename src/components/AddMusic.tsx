@@ -3,7 +3,7 @@
 export function AddMusic({ songs, setSongs }){
     function addSong(event){
      
-        event.preventDefoult()
+        event.preventDefault()
 
         const song = {
             title: event.target.title.value,

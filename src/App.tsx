@@ -5,7 +5,9 @@ import { FreeMusic } from './pages/FreeMusic'
 import { MainMusic } from "./components/MainMusic"
 import { AddMusic } from "./components/AddMusic"
 import { YourMusic } from "./pages/YourMusic"
-
+import { Routes } from "react-router"
+import { Route } from "react-router"
+import { Link } from "react-router-dom"
 
 function App() {
   // const myLink = document.getElementById('myLink');
@@ -64,26 +66,20 @@ function App() {
   ])
   return (
     <div className="App">
-      <MainMusic
-        songs={songs}
-        setSongs={setSongs}
-      />
-      <AddMusic
-        songs={songs}
-        setSongs={setSongs}
-      />
-      <Home />
-       
-      <YourMusic
-        songs={songs}
-        setSongs={setSongs}
-      />
-
-      <FreeMusic
-        songs={songs}
-        setSongs={setSongs}
-      />
-      <button>Next</button>
+        <Link to="/Home">Home</Link>
+        <Link to="/YourMusic">YourMusic</Link>
+        <Link to="/FreeMusic">FreeMusic</Link>
+       <Routes>
+       <Route path="/Home" element={<Home/>} />
+            <Route
+              path="/YourMusic"
+              element={<YourMusic songs={songs} setSongs={setSongs}/>}
+            />
+            <Route
+              path="/FreeMusic"
+              element={<FreeMusic songs={songs} setSongs={setSongs}/>}
+            />
+      </Routes>
     </div>
   )
 }
