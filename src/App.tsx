@@ -66,9 +66,11 @@ function App() {
   ])
   return (
     <div className="App">
+      <div><h1>MAXPLAY</h1>
         <Link to="/Home">Home</Link>
         <Link to="/YourMusic">YourMusic</Link>
         <Link to="/FreeMusic">FreeMusic</Link>
+        </div>
        <Routes>
        <Route path="/Home" element={<Home/>} />
             <Route
