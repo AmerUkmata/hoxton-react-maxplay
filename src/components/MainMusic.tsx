@@ -21,7 +21,7 @@ export function MainMusic({songs, setSongs}) {
     return (
         <div>
             {songs.map(song => (
-                <button
+                <button className="Musicbuttons"
                     onClick={() => {
                         music.src = song.source
                         playMusic()
@@ -32,7 +32,7 @@ export function MainMusic({songs, setSongs}) {
                 
             ))}
             
-            <button onClick={playMusic}>PLAY/PAUSE MUSIC</button>
+            <button className="playandStop" onClick={playMusic}>PLAY/PAUSE MUSIC</button>
             
         </div>
     )
