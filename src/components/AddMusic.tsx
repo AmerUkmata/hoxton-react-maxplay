@@ -4,17 +4,20 @@ function getMusic(){
     .then()
 }
 
-export function AddMusic(){
-
-    return(
-     <div>
-        <form>
-        <input id="need" type="text" required />
-        <input id="need" type="url" pattern=".*\.mp4$" required />
-        <button onClick={() => {
-            getMusic()
-        }}>ADD SONG</button>
-      </form>
-     </div>
-    )
-}
+export function AddMusic({ songs, setSongs }){
+    function addSong(){
+      // we will build this soon  
+  }    
+  
+    //   console.log(songs) < = this should show all your songs in the console. if its undefined - DONT TOUCH FUNCTIONS. FIX PROPS FIRST!
+  
+      return(
+       <div>
+          <form>
+          <input type="text" required />
+          <input type="url" pattern=".*\.mp4$" required />
+          <button onClick={addSong}>ADD SONG</button>
+        </form>
+       </div>
+      )
+  }
