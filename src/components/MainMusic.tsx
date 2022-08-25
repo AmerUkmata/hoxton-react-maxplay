@@ -27,7 +27,7 @@ export function MainMusic({songs, setSongs}) {
                         playMusic()
                     }}
                 >
-                   <img src="https://play-lh.googleusercontent.com/QovZ-E3Uxm4EvjacN-Cv1LnjEv-x5SqFFB5BbhGIwXI_KorjFhEHahRZcXFC6P40Xg" width="100px"/> {song.title}
+                   <img src="https://play-lh.googleusercontent.com/QovZ-E3Uxm4EvjacN-Cv1LnjEv-x5SqFFB5BbhGIwXI_KorjFhEHahRZcXFC6P40Xg" width="50px"/> {song.title}
                 </button>
                 
             ))}
