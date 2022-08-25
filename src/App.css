@@ -2,7 +2,8 @@
 .header {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: gray;
   align-items: center;
   height: 100px;
 }
