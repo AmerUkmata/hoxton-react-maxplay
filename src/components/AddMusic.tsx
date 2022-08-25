@@ -1,8 +1,8 @@
 // import App from "../App"
 
 export function AddMusic({ songs, setSongs }){
-    function addSong(){
-     event => {
+    function addSong(event){
+     
         event.preventDefoult()
 
         const song = {
@@ -10,7 +10,6 @@ export function AddMusic({ songs, setSongs }){
             source: event.target.url.value
         }
         setSongs(...songs, song)
-     }
   }    
   
     //   console.log(songs) < = this should show all your songs in the console. if its undefined - DONT TOUCH FUNCTIONS. FIX PROPS FIRST!
