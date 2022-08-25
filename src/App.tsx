@@ -4,6 +4,7 @@ import { Home } from './pages/Home'
 import { FreeMusic } from './pages/FreeMusic'
 import { MainMusic } from "./components/MainMusic"
 import { AddMusic } from "./components/AddMusic"
+import { YourMusic } from "./pages/YourMusic"
 
 
 function App() {
@@ -72,8 +73,16 @@ function App() {
         setSongs={setSongs}
       />
       <Home />
+       
+      <YourMusic
+        songs={songs}
+        setSongs={setSongs}
+      />
 
-      <FreeMusic />
+      <FreeMusic
+        songs={songs}
+        setSongs={setSongs}
+      />
       <button>Next</button>
     </div>
   )
