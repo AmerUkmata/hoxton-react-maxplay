@@ -1,3 +1,5 @@
+import App from "../App"
+
 function getMusic(){
     fetch('need')
     .then(resp => resp.json)

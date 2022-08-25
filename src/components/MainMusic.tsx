@@ -13,10 +13,7 @@ function playMusic() {
     }
 }
 
-<App
-  songs={songs}
-  setSongs={setSongs}
-/>
+
 export function MainMusic({songs, setSongs}) {
 
     
