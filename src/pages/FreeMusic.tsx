@@ -1,6 +1,6 @@
 import { MainMusic } from "../components/MainMusic"
 
-export function FreeMusic() {
+export function FreeMusic({songs, setSongs}) {
     return (
         <div>
             <MainMusic

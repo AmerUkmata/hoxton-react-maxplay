@@ -1,6 +1,6 @@
 
 import { AddMusic } from "../components/AddMusic"
-export function YourMusic() {
+export function YourMusic({songs, setSongs}) {
     return (
         <div>
             <AddMusic
