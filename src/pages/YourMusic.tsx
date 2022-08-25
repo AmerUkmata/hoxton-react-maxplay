@@ -8,7 +8,6 @@ export function YourMusic({songs, setSongs}) {
                 songs={songs}
                 setSongs={setSongs}
             />
-            <Link to="/Home">Home</Link>
         </div>
     )
 }

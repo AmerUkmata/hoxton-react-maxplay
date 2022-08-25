@@ -8,6 +8,7 @@ import { YourMusic } from "./pages/YourMusic"
 import { Routes } from "react-router"
 import { Route } from "react-router"
 import { Link } from "react-router-dom"
+import "./App.css";
 
 function App() {
   // const myLink = document.getElementById('myLink');
@@ -66,21 +67,22 @@ function App() {
   ])
   return (
     <div className="App">
-      <div><h1>MAXPLAY</h1>
+      <div className="header">
+        <h1 className="header__logo">MAXPLAY</h1>
         <Link to="/Home">Home</Link>
         <Link to="/YourMusic">YourMusic</Link>
         <Link to="/FreeMusic">FreeMusic</Link>
-        </div>
-       <Routes>
-       <Route path="/Home" element={<Home/>} />
-            <Route
-              path="/YourMusic"
-              element={<YourMusic songs={songs} setSongs={setSongs}/>}
-            />
-            <Route
-              path="/FreeMusic"
-              element={<FreeMusic songs={songs} setSongs={setSongs}/>}
-            />
+      </div>
+      <Routes>
+        <Route path="/Home" element={<Home />} />
+        <Route
+          path="/YourMusic"
+          element={<YourMusic songs={songs} setSongs={setSongs} />}
+        />
+        <Route
+          path="/FreeMusic"
+          element={<FreeMusic songs={songs} setSongs={setSongs} />}
+        />
       </Routes>
     </div>
   )
