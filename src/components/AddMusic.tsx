@@ -19,7 +19,7 @@ export function AddMusic({ songs, setSongs }){
           <form onSubmit={addSong}>
           <input name="title"  type="text" required />
           <input name="url" type="url" pattern=".*\.mp3$" required />
-          <button >ADD SONG</button>
+          <button>ADD SONG</button>
         </form>
        </div>
       )
