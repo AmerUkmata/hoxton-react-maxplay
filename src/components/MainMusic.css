@@ -1,0 +1,9 @@
+.Musicbuttons {
+    margin: 50px;
+}
+.playandStop {
+    display: grid;
+    place-items: bottom;
+    margin-left: 550px;
+    margin-bottom: 30px;
+}
